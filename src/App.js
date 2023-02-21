@@ -14,7 +14,7 @@ function App() {
     // </div>
     <>
       <Routes>
-        <Route path="/" element={<HomePage onCreateUser={createUser} />} />
+        <Route path="/" element={<HomePage />} />
         <Route path="/login" element={<LogInPage />} />
         <Route path="*" element={<h1>This page does not exist</h1>} />
       </Routes>
